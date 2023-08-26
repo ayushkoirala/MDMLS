@@ -1,6 +1,9 @@
 # `Multi document summarization for medical literature`
 
 
-Abstract :
+# Abstract :
+Multi-document summarization of medical literature is important for summarizing salient information from massive medical documents. In contrast to a single document task, multi-document summarization require the model to condense summary-relevant content from various documents into a summary. A common method to handle such a large amount of documents is to reduce the text units to a shorter one. This can be accomplished by truncating the input texts (Moro, Ragazzi, Valgimigli, & Freddi, 2022) or employing retrieve-then-summarize pipelines based on similarity measures to estimate the relevancy between given background and text units i.e. documents (Moro et al., 2022) or sentences (Shinde, Roy, & Ghosal, 2022) before passing to the pre-trained language Models (PLMs). However, simply truncating input texts that are longer than the maximum context length of typical PLMs in a medical domain is unacceptable since each
+piece of information can be vital, and generating a summary from the relevant documents may be sub-optimal since relevant text units are usually scattered throughout the documents while retrieving relevant sentences from all documents may be time-consuming.
 
+The paper proposes a multi-document summarization method of medical literature to breakdown the retrieval process into two sub-units including the relevant document selection and relevant sentence extraction where the method utilizes Dense Passage Retrieval (DPR) to identify relevant documents and incorporates the PICO framework during training to effectively mask and generate candidate sentences, allowing it to extract salient information from clinical studies. The selected sentences are then input into an abstractive summarization model like BART to generate concise and informative summaries. The results of our experiments demonstrate that utilizing the MS2 dataset (DeY-oung, Beltagy, van Zuylen, Kuehl, & Wang, 2021) significantly improves the quality of the generated summary.
  
