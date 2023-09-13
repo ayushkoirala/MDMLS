@@ -1,0 +1,32 @@
+2023-09-13 22:18:19 [INFO]: args=Namespace(bs=8, n_epoch=3, lr=3e-05, model_dir='checkpoint', full=False, log=True, log_dir='mylog_prototype')
+2023-09-13 22:18:19 [INFO]: Starting 'Main program'
+2023-09-13 22:18:19 [INFO]: Starting 'Loading data'
+2023-09-13 22:18:19 [INFO]: Imported 499 rows of train datasset
+2023-09-13 22:18:20 [INFO]: Imported 499 rows of train datasset
+2023-09-13 22:18:20 [INFO]: Imported 49 rows of validation dataset
+2023-09-13 22:18:20 [INFO]: End 'Loading data' (in 0:00 mins)
+2023-09-13 22:18:20 [INFO]: Starting 'Training'
+2023-09-13 22:18:38 [INFO]: Starting 'Tokenizing (Train dataset)'
+2023-09-13 22:18:40 [INFO]: End 'Tokenizing (Train dataset)' (in 0:01 mins)
+2023-09-13 22:18:40 [INFO]: Starting 'Tokenizing (Val dataset)'
+2023-09-13 22:18:40 [INFO]: End 'Tokenizing (Val dataset)' (in 0:00 mins)
+2023-09-13 22:18:40 [INFO]: Starting 'Building dataset'
+2023-09-13 22:18:40 [INFO]: End 'Building dataset' (in 0:00 mins)
+2023-09-13 22:18:40 [INFO]: Starting 'Building dataloader'
+2023-09-13 22:18:40 [INFO]: End 'Building dataloader' (in 0:00 mins)
+2023-09-13 22:18:48 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 1.83/40.00 GB
+2023-09-13 22:19:16 [INFO]: [Epoch 1] Trainning loss: 0.0284
+2023-09-13 22:19:17 [INFO]: [Epoch 1] New lowest val loss (0.0011)
+2023-09-13 22:19:17 [INFO]: Saved model to checkpoint/checkpoint-2
+2023-09-13 22:19:17 [INFO]: Saved train_losses to records/rec-1/train_losses.npy
+2023-09-13 22:19:17 [INFO]: Saved val_losses to records/rec-1/val_losses.npy
+2023-09-13 22:19:29 [INFO]: [Epoch 2] Trainning loss: 0.0073
+2023-09-13 22:19:29 [INFO]: [Epoch 2] Val loss = 0.0029 (Not reach new best)
+2023-09-13 22:19:29 [INFO]: Saved train_losses to records/rec-1/train_losses.npy
+2023-09-13 22:19:29 [INFO]: Saved val_losses to records/rec-1/val_losses.npy
+2023-09-13 22:19:41 [INFO]: [Epoch 3] Trainning loss: 0.0038
+2023-09-13 22:19:41 [INFO]: [Epoch 3] Val loss = 0.0012 (Not reach new best)
+2023-09-13 22:19:41 [INFO]: Saved train_losses to records/rec-1/train_losses.npy
+2023-09-13 22:19:41 [INFO]: Saved val_losses to records/rec-1/val_losses.npy
+2023-09-13 22:19:41 [INFO]: End 'Training' (in 1:21 mins)
+2023-09-13 22:19:41 [INFO]: End 'Main program' (in 1:21 mins)
