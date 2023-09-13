@@ -7,3 +7,6 @@ piece of information can be vital, and generating a summary from the relevant do
 
 The paper proposes a multi-document summarization method of medical literature to breakdown the retrieval process into two sub-units including the relevant document selection and relevant sentence extraction where the method utilizes Dense Passage Retrieval (DPR) to identify relevant documents and incorporates the PICO framework during training to effectively mask and generate candidate sentences, allowing it to extract salient information from clinical studies. The selected sentences are then input into an abstractive summarization model like BART to generate concise and informative summaries. The results of our experiments demonstrate that utilizing the MS2 dataset (DeY-oung, Beltagy, van Zuylen, Kuehl, & Wang, 2021) significantly improves the quality of the generated summary.
  
+
+ # Methodology
+ <p align="center"><img src="figure/finalMethodology.png"></p>
