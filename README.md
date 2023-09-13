@@ -10,3 +10,8 @@ The paper proposes a multi-document summarization method of medical literature t
 
  # Methodology
  <p align="center"><img src="figure/finalMethodology.png"></p>
+
+
+ # Experiment
+
+  <p align="center"><img src="figure/Experiment.png"></p>
