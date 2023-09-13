@@ -20,4 +20,4 @@
 ## Training validation Graph:
 
 <p align="center"><img src="figure/training-plot.png"></p>
-<p align="center"><img src="figure/validation-plot.png"></p>
+<p align="center"><img src="figure/valiadation-plot.png"></p>
