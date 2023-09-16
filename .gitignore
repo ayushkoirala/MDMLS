@@ -2,3 +2,4 @@
 /dataset/file_with_candidate_document.csv
 /dataset/train-input-filtered-review-30.csv
 /checkpoint/pytorch_model.bin
+/PICO-0.15/Top_20_sentences_with_token_length_for_each_ReviewID.csv
