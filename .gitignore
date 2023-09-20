@@ -7,3 +7,4 @@ Data_preprocessin/PICO-0.45-dataset/PICO_0.45_train.csv
 /Experiment/PICO-0.15/Top_20_sentences_with_token_length_for_each_ReviewID.csv
 /Experiment/PICO-0.15/dev-inputs-30.csv
 *.csv
+*.bin
