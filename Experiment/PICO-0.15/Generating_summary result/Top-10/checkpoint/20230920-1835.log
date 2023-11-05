@@ -1,0 +1,76 @@
+2023-09-20 18:35:32 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/training_query_model/result_demo/train_result/Top_10_sentences_with_token_length_for_each_ReviewID.csv', val_file='/home/akoirala/Thesis/training_query_model/result_demo/val_result/Top_10_sentences_with_token_length_for_each_ReviewID.csv', model='bart_cnn', bs=4, lr=3e-05, n_epoch=3, num_beams=4, exp_name=None, train_id='20230920-1835')
+2023-09-20 18:35:32 [INFO]: Starting 'Trainning'
+2023-09-20 18:35:33 [INFO]: Train and Validation Data loaded
+2023-09-20 18:35:59 [INFO]: Starting 'Buliding train dataset'
+2023-09-20 18:35:59 [INFO]: Starting 'Buliding MyDataset'
+2023-09-20 18:36:27 [INFO]: End 'Buliding MyDataset' (in 0:27 mins)
+2023-09-20 18:36:27 [INFO]: Starting 'Buliding DataLoader'
+2023-09-20 18:36:27 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-09-20 18:36:27 [INFO]: End 'Buliding train dataset' (in 0:27 mins)
+2023-09-20 18:36:27 [INFO]: Starting 'Buliding val dataset'
+2023-09-20 18:36:27 [INFO]: Starting 'Buliding MyDataset'
+2023-09-20 18:36:30 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-09-20 18:36:30 [INFO]: Starting 'Buliding DataLoader'
+2023-09-20 18:36:30 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-09-20 18:36:30 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-09-20 18:36:31 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 0.55/40.00 GB
+2023-09-20 18:36:50 [INFO]: D0: 22.21/40.00 GB
+2023-09-20 19:18:42 [INFO]: Saved train_losses to records/train_losses.npy
+2023-09-20 19:26:34 [INFO]: Starting 'Calculating Rouge score'
+2023-09-20 19:26:34 [INFO]: Using default tokenizer.
+2023-09-20 19:26:38 [INFO]: End 'Calculating Rouge score' (in 0:03 mins)
+2023-09-20 19:26:38 [INFO]: Starting 'Calculating BERT score'
+2023-09-20 19:26:38 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-09-20 19:27:47 [INFO]: Starting 'Calculating BART score'
+2023-09-20 19:28:25 [INFO]: End 'Calculating BART score' (in 0:37 mins)
+2023-09-20 19:28:26 [INFO]: ** Saved model to checkpoints/checkpoint-1
+2023-09-20 19:28:26 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (25.43)
+2023-09-20 19:28:26 [INFO]: Saved train_losses to records/train_losses.npy
+2023-09-20 19:28:26 [INFO]: Saved rouge1 to records/rouge1.npy
+2023-09-20 19:28:26 [INFO]: Saved rouge2 to records/rouge2.npy
+2023-09-20 19:28:27 [INFO]: Saved rougeL to records/rougeL.npy
+2023-09-20 19:28:27 [INFO]: Saved BERTscore to records/BERTscore.npy
+2023-09-20 19:28:27 [INFO]: Saved BARTscore to records/BARTscore.npy
+2023-09-20 19:28:28 [INFO]: D0: 27.51/40.00 GB
+2023-09-20 20:09:45 [INFO]: Saved train_losses to records/train_losses.npy
+2023-09-20 20:09:45 [INFO]: Saved rouge1 to records/rouge1.npy
+2023-09-20 20:09:45 [INFO]: Saved rouge2 to records/rouge2.npy
+2023-09-20 20:09:45 [INFO]: Saved rougeL to records/rougeL.npy
+2023-09-20 20:09:45 [INFO]: Saved BERTscore to records/BERTscore.npy
+2023-09-20 20:09:45 [INFO]: Saved BARTscore to records/BARTscore.npy
+2023-09-20 20:18:52 [INFO]: Starting 'Calculating Rouge score'
+2023-09-20 20:18:52 [INFO]: Using default tokenizer.
+2023-09-20 20:18:55 [INFO]: End 'Calculating Rouge score' (in 0:03 mins)
+2023-09-20 20:18:55 [INFO]: Starting 'Calculating BERT score'
+2023-09-20 20:18:55 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-09-20 20:20:02 [INFO]: Starting 'Calculating BART score'
+2023-09-20 20:20:40 [INFO]: End 'Calculating BART score' (in 0:37 mins)
+2023-09-20 20:20:40 [INFO]: [End Epoch 2] Not saved model (Val rouge-1 = 24.64)
+2023-09-20 20:20:40 [INFO]: Saved train_losses to records/train_losses.npy
+2023-09-20 20:20:40 [INFO]: Saved rouge1 to records/rouge1.npy
+2023-09-20 20:20:40 [INFO]: Saved rouge2 to records/rouge2.npy
+2023-09-20 20:20:40 [INFO]: Saved rougeL to records/rougeL.npy
+2023-09-20 20:20:40 [INFO]: Saved BERTscore to records/BERTscore.npy
+2023-09-20 20:20:40 [INFO]: Saved BARTscore to records/BARTscore.npy
+2023-09-20 20:20:41 [INFO]: D0: 27.51/40.00 GB
+2023-09-20 21:01:57 [INFO]: Saved train_losses to records/train_losses.npy
+2023-09-20 21:01:57 [INFO]: Saved rouge1 to records/rouge1.npy
+2023-09-20 21:01:57 [INFO]: Saved rouge2 to records/rouge2.npy
+2023-09-20 21:01:57 [INFO]: Saved rougeL to records/rougeL.npy
+2023-09-20 21:01:57 [INFO]: Saved BERTscore to records/BERTscore.npy
+2023-09-20 21:01:57 [INFO]: Saved BARTscore to records/BARTscore.npy
+2023-09-20 21:10:18 [INFO]: Starting 'Calculating Rouge score'
+2023-09-20 21:10:18 [INFO]: Using default tokenizer.
+2023-09-20 21:10:21 [INFO]: End 'Calculating Rouge score' (in 0:03 mins)
+2023-09-20 21:10:21 [INFO]: Starting 'Calculating BERT score'
+2023-09-20 21:10:21 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-09-20 21:11:16 [INFO]: Starting 'Calculating BART score'
+2023-09-20 21:11:53 [INFO]: End 'Calculating BART score' (in 0:37 mins)
+2023-09-20 21:11:53 [INFO]: [End Epoch 3] Not saved model (Val rouge-1 = 24.44)
+2023-09-20 21:11:53 [INFO]: Saved train_losses to records/train_losses.npy
+2023-09-20 21:11:53 [INFO]: Saved rouge1 to records/rouge1.npy
+2023-09-20 21:11:53 [INFO]: Saved rouge2 to records/rouge2.npy
+2023-09-20 21:11:53 [INFO]: Saved rougeL to records/rougeL.npy
+2023-09-20 21:11:53 [INFO]: Saved BERTscore to records/BERTscore.npy
+2023-09-20 21:11:53 [INFO]: Saved BARTscore to records/BARTscore.npy
+2023-09-20 21:11:53 [INFO]: End 'Trainning' (in 2:36:21 hrs)

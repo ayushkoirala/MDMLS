@@ -1,0 +1,5 @@
+2023-09-27 21:40:07 [INFO]: args=Namespace(log=False, log_dir='generating', full=True, test_file='/home/akoirala/Thesis/Data-Preprocessing-Pipeline/test.csv', background_checkpoint='/home/akoirala/Thesis/training_query_model/checkpoint/model-with-test', result_path='/home/akoirala/Thesis/Testing/result/model_with_test', model='bart_cnn', bart_checkpoint='/home/akoirala/Thesis/Generating_summary/checkpoints/checkpoint-12', save_samp=True, bs=16, exp_name=None, num_beams=4, split='sample')
+2023-09-27 21:40:55 [INFO]: Data loader created
+2023-09-27 21:43:57 [INFO]: Predicted Score
+2023-09-27 21:44:01 [INFO]: Starting 'Buliding val dataset'
+2023-09-27 21:44:01 [INFO]: Starting 'Buliding MyDataset'

@@ -1,0 +1,48 @@
+2023-09-27 21:48:40 [INFO]: args=Namespace(log=False, log_dir='generating', full=True, test_file='/home/akoirala/Thesis/Data-Preprocessing-Pipeline/test.csv', background_checkpoint='/home/akoirala/Thesis/training_query_model/checkpoint/model-with-test', result_path='/home/akoirala/Thesis/Testing/result/model_with_test', model='bart_cnn', bart_checkpoint='/home/akoirala/Thesis/Generating_summary/checkpoints/checkpoint-12', save_samp=True, bs=16, exp_name=None, num_beams=4, split='sample')
+2023-09-27 21:49:28 [INFO]: Data loader created
+2023-09-27 21:52:30 [INFO]: Predicted Score
+2023-09-27 21:52:35 [INFO]: Starting 'Buliding val dataset'
+2023-09-27 21:52:35 [INFO]: Starting 'Buliding MyDataset'
+2023-09-27 21:52:36 [INFO]: End 'Buliding MyDataset' (in 0:00 mins)
+2023-09-27 21:52:36 [INFO]: Starting 'Buliding DataLoader'
+2023-09-27 21:52:36 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-09-27 21:52:36 [INFO]: End 'Buliding val dataset' (in 0:00 mins)
+2023-09-27 21:54:04 [INFO]: Saved 4 val samples to /home/akoirala/Thesis/Testing/result/model_with_test/val_samples.csv
+2023-09-27 21:54:04 [INFO]: Starting 'Calculating Rouge score'
+2023-09-27 21:54:04 [INFO]: Using default tokenizer.
+2023-09-27 21:54:05 [INFO]: End 'Calculating Rouge score' (in 0:00 mins)
+2023-09-27 21:54:05 [INFO]: Starting 'Calculating BERT score'
+2023-09-27 21:54:05 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-09-27 21:54:47 [INFO]: Starting 'Calculating BART score'
+2023-09-27 21:55:14 [INFO]: End 'Calculating BART score' (in 0:27 mins)
+2023-09-27 21:55:14 [INFO]: Saved rouge1 to records/rec-5/rouge1.npy
+2023-09-27 21:55:14 [INFO]: Saved rouge2 to records/rec-5/rouge2.npy
+2023-09-27 21:55:14 [INFO]: Saved rougeL to records/rec-5/rougeL.npy
+2023-09-27 21:55:14 [INFO]: Saved BERTscore to records/rec-5/BERTscore.npy
+2023-09-27 21:55:14 [INFO]: Saved BARTscore to records/rec-5/BARTscore.npy
+2023-09-27 21:56:44 [INFO]: Saved 4 val samples to /home/akoirala/Thesis/Testing/result/model_with_test/val_samples.csv
+2023-09-27 21:56:44 [INFO]: Starting 'Calculating Rouge score'
+2023-09-27 21:56:44 [INFO]: Using default tokenizer.
+2023-09-27 21:56:45 [INFO]: End 'Calculating Rouge score' (in 0:00 mins)
+2023-09-27 21:56:45 [INFO]: Starting 'Calculating BERT score'
+2023-09-27 21:56:45 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-09-27 21:57:25 [INFO]: Starting 'Calculating BART score'
+2023-09-27 21:57:51 [INFO]: End 'Calculating BART score' (in 0:25 mins)
+2023-09-27 21:57:51 [INFO]: Saved rouge1 to records/rec-5/rouge1.npy
+2023-09-27 21:57:51 [INFO]: Saved rouge2 to records/rec-5/rouge2.npy
+2023-09-27 21:57:51 [INFO]: Saved rougeL to records/rec-5/rougeL.npy
+2023-09-27 21:57:51 [INFO]: Saved BERTscore to records/rec-5/BERTscore.npy
+2023-09-27 21:57:51 [INFO]: Saved BARTscore to records/rec-5/BARTscore.npy
+2023-09-27 21:59:15 [INFO]: Saved 4 val samples to /home/akoirala/Thesis/Testing/result/model_with_test/val_samples.csv
+2023-09-27 21:59:15 [INFO]: Starting 'Calculating Rouge score'
+2023-09-27 21:59:15 [INFO]: Using default tokenizer.
+2023-09-27 21:59:16 [INFO]: End 'Calculating Rouge score' (in 0:00 mins)
+2023-09-27 21:59:16 [INFO]: Starting 'Calculating BERT score'
+2023-09-27 21:59:16 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-09-27 21:59:56 [INFO]: Starting 'Calculating BART score'
+2023-09-27 22:00:22 [INFO]: End 'Calculating BART score' (in 0:25 mins)
+2023-09-27 22:00:22 [INFO]: Saved rouge1 to records/rec-5/rouge1.npy
+2023-09-27 22:00:22 [INFO]: Saved rouge2 to records/rec-5/rouge2.npy
+2023-09-27 22:00:22 [INFO]: Saved rougeL to records/rec-5/rougeL.npy
+2023-09-27 22:00:22 [INFO]: Saved BERTscore to records/rec-5/BERTscore.npy
+2023-09-27 22:00:22 [INFO]: Saved BARTscore to records/rec-5/BARTscore.npy

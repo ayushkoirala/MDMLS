@@ -1,0 +1,19 @@
+2023-10-04 18:33:38 [INFO]: args=Namespace(log=True, log_dir='preprocess_prototype', full=False, input_dir='/home/akoirala/Thesis/Data-making-pipeline/dataset', result='/home/akoirala/Thesis/Data-making-pipeline/random_framework')
+2023-10-04 18:34:09 [INFO]: Masking background using PICO Done
+2023-10-04 18:34:13 [INFO]: spliting into sentences
+2023-10-04 18:36:01 [INFO]: Getting Target R1,R2 and RL
+2023-10-04 18:36:02 [INFO]: Final Score is saved
+2023-10-04 18:36:06 [INFO]: Masking background using PICO Done
+2023-10-04 18:36:07 [INFO]: spliting into sentences
+2023-10-04 18:36:28 [INFO]: Getting Target R1,R2 and RL
+2023-10-04 18:36:28 [INFO]: Final Score is saved
+2023-10-04 18:36:31 [INFO]: Masking background using PICO Done
+2023-10-04 18:37:01 [INFO]: spliting into sentences
+2023-10-04 18:49:44 [INFO]: Getting Target R1,R2 and RL
+2023-10-04 18:49:55 [INFO]: Final Score is saved
+2023-10-04 18:50:19 [INFO]: Masking background using PICO Done
+2023-10-04 18:50:23 [INFO]: spliting into sentences
+2023-10-04 18:52:11 [INFO]: Getting Target R1,R2 and RL
+2023-10-04 18:52:12 [INFO]: Final Score is saved
+2023-10-04 18:52:16 [INFO]: Masking background using PICO Done
+2023-10-04 18:52:16 [INFO]: spliting into sentences

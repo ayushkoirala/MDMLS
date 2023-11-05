@@ -1,0 +1,23 @@
+
+Summary for masking ratio TF-IDF with Average Mask Token 0.15:
+
+             dev  test  train
+MASK_count                   
+1              1     1     11
+2           1982   399  13967
+
+
+Summary for masking ratio TF-IDF with Average Mask Token 0.3:
+
+             dev  test  train
+MASK_count                   
+3              1     0     12
+4           1982   400  13966
+
+
+Summary for masking ratio TF-IDF with Average Mask Token 0.45:
+
+             dev  test  train
+MASK_count                   
+6           1983   400  13978
+

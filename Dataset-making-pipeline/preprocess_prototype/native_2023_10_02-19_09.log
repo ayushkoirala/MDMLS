@@ -1,0 +1,3 @@
+2023-10-02 19:09:06 [INFO]: args=Namespace(log=True, log_dir='preprocess_prototype', full=False, input_dir='/home/akoirala/Thesis/Data-making-pipeline/dataset', result='/home/akoirala/Thesis/Data-making-pipeline/PICO_framework')
+2023-10-02 19:21:24 [INFO]: Masking background using PICO Done
+2023-10-02 19:21:53 [INFO]: spliting into sentences

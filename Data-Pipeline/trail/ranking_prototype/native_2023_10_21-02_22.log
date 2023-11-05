@@ -1,0 +1,5 @@
+2023-10-21 02:22:02 [INFO]: args=Namespace(log=True, log_dir='trail/ranking_prototype', full=False, bs=32)
+2023-10-21 02:22:02 [INFO]: /home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 02:22:02 [INFO]: checkpoint_path:/home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 02:22:02 [INFO]: Starting 'Program Running'
+2023-10-21 02:22:02 [INFO]: Starting 'Loading data'

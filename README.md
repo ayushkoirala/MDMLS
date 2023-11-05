@@ -15,3 +15,5 @@ The paper proposes a multi-document summarization method of medical literature t
  # Experiment
 
   <p align="center"><img src="figure/Experiment.png"></p>
+
+

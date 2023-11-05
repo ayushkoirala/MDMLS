@@ -1,0 +1,12 @@
+Start Generating job
+Loading miniconda module and activate envs
+===================================================================== Running python file ======================================================================
+usage: validation.py [-h] [--log] [--log_dir LOG_DIR] [--full]
+                     [--test_file TEST_FILE]
+                     [--background_checkpoint BACKGROUND_CHECKPOINT]
+                     [--result_path RESULT_PATH] [--model MODEL]
+                     [--bart_checkpoint BART_CHECKPOINT] [--save_samp]
+                     [--bs BS] [--exp_name EXP_NAME] [--num_beams NUM_BEAMS]
+                     [--split SPLIT]
+validation.py: error: unrecognized arguments: -- save_samp -- full
+===================================================================== Finished python file =====================================================================

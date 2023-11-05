@@ -1,0 +1,921 @@
+2023-10-21 02:33:54 [INFO]: args=Namespace(bs=128, n_epoch=3, lr=3e-05, model_dir='background_checkpoint', full=False, log=True, log_dir='random_0.15/background_modeling_prototype')
+2023-10-21 02:33:54 [INFO]: Starting 'Main program'
+2023-10-21 02:33:54 [INFO]: Starting 'Loading data'
+2023-10-21 02:34:07 [INFO]: Imported 926163 rows of train datasset
+2023-10-21 02:34:09 [INFO]: Imported 926163 rows of train datasset
+2023-10-21 02:34:09 [INFO]: Imported 130827 rows of validation dataset
+2023-10-21 02:34:09 [INFO]: End 'Loading data' (in 0:14 mins)
+2023-10-21 02:34:09 [INFO]: Starting 'Training'
+2023-10-21 02:34:24 [INFO]: Starting 'Tokenizing (Train dataset)'
+2023-10-21 02:58:55 [INFO]: End 'Tokenizing (Train dataset)' (in 24:30 mins)
+2023-10-21 02:58:55 [INFO]: Starting 'Tokenizing (Val dataset)'
+2023-10-21 03:02:13 [INFO]: End 'Tokenizing (Val dataset)' (in 3:17 mins)
+2023-10-21 03:02:13 [INFO]: Starting 'Building dataset'
+2023-10-21 03:02:14 [INFO]: End 'Building dataset' (in 0:01 mins)
+2023-10-21 03:02:14 [INFO]: Starting 'Building dataloader'
+2023-10-21 03:02:14 [INFO]: End 'Building dataloader' (in 0:00 mins)
+2023-10-21 03:02:15 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 1.90/40.00 GB
+2023-10-21 03:02:15 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 03:02:15 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 03:02:15 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 04:26:53 [INFO]: [Epoch 1] Trainning loss: 0.0008
+2023-10-21 04:30:54 [INFO]: [Epoch 1] New lowest val loss (0.0006)
+2023-10-21 04:30:54 [INFO]: ** Saved model to random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 04:30:55 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 04:30:55 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
+2023-10-21 05:55:42 [INFO]: [Epoch 2] Trainning loss: 0.0005
+2023-10-21 05:59:43 [INFO]: [Epoch 2] Val loss = 0.0006 (Not reach new best)
+2023-10-21 05:59:43 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 05:59:43 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
+2023-10-21 07:24:27 [INFO]: [Epoch 3] Trainning loss: 0.0005
+2023-10-21 07:28:27 [INFO]: [Epoch 3] Val loss = 0.0007 (Not reach new best)
+2023-10-21 07:28:27 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 07:28:27 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
+2023-10-21 07:28:27 [INFO]: End 'Training' (in 4:54:18 hrs)
+2023-10-21 07:28:27 [INFO]: End 'Main program' (in 4:54:33 hrs)
+2023-10-21 07:28:28 [INFO]: args=Namespace(log=True, log_dir='random_0.15/ranking_prototype', full=False, bs=32)
+2023-10-21 07:28:28 [INFO]: /home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 07:28:28 [INFO]: checkpoint_path:/home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 07:28:28 [INFO]: Starting 'Program Running'
+2023-10-21 07:28:28 [INFO]: Starting 'Loading data'
+2023-10-21 07:28:43 [INFO]: Imported 926163 rows of train datasset
+2023-10-21 07:28:43 [INFO]: /home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 07:28:49 [INFO]: tokenizer and model loded
+2023-10-21 07:53:19 [INFO]: Data loader created
+2023-10-21 09:36:56 [INFO]: Predicted Score
+2023-10-21 09:47:52 [INFO]: average rouge score of Extractive summary
+2023-10-21 09:47:52 [INFO]: Using default tokenizer.
+2023-10-21 09:48:16 [INFO]: Overall ROUGE1: {'f': 0.24693839904173737, 'p': 0.25848413869819276, 'r': 0.2923589949041579}
+2023-10-21 09:48:16 [INFO]: Overall ROUGE2: {'f': 0.04754601737841698, 'p': 0.04994688008408595, 'r': 0.056979098625994554}
+2023-10-21 09:48:16 [INFO]: Overall ROUGEL: {'f': 0.15891318245402747, 'p': 0.1636632482334165, 'r': 0.19333690405913564}
+2023-10-21 09:48:16 [INFO]: /home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 09:48:16 [INFO]: checkpoint_path:/home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 09:48:16 [INFO]: Starting 'Program Running'
+2023-10-21 09:48:16 [INFO]: Starting 'Loading data'
+2023-10-21 09:48:19 [INFO]: Imported 130827 rows of dev datasset
+2023-10-21 09:48:19 [INFO]: /home/akoirala/Thesis/Data-Pipeline/random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 09:48:27 [INFO]: tokenizer and model loded
+2023-10-21 09:51:47 [INFO]: Data loader created
+2023-10-21 10:06:24 [INFO]: Predicted Score
+2023-10-21 10:07:57 [INFO]: average rouge score of Extractive summary
+2023-10-21 10:07:57 [INFO]: Using default tokenizer.
+2023-10-21 10:08:00 [INFO]: Overall ROUGE1: {'f': 0.24874519763416195, 'p': 0.26046762079902225, 'r': 0.29212252589663157}
+2023-10-21 10:08:00 [INFO]: Overall ROUGE2: {'f': 0.04836602216509843, 'p': 0.05090538994713391, 'r': 0.05770456145348081}
+2023-10-21 10:08:00 [INFO]: Overall ROUGEL: {'f': 0.16004351497677988, 'p': 0.16528948946135277, 'r': 0.19288886578278963}
+2023-10-21 10:08:00 [INFO]: End 'Loading data' (in 19:43 mins)
+2023-10-21 10:08:00 [INFO]: End 'Program Running' (in 19:43 mins)
+2023-10-21 10:08:01 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_base', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='top_k_sentences') using model bart_base for type top_k_sentences
+2023-10-21 10:08:01 [INFO]: Starting 'Training'
+2023-10-21 10:08:01 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 10:08:01 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 10:08:01 [INFO]: Train and Validation Data loaded
+2023-10-21 10:08:29 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 10:08:29 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 10:08:44 [INFO]: End 'Buliding MyDataset' (in 0:15 mins)
+2023-10-21 10:08:44 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 10:08:44 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 10:08:44 [INFO]: End 'Buliding train dataset' (in 0:15 mins)
+2023-10-21 10:08:44 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 10:08:44 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 10:08:47 [INFO]: End 'Buliding MyDataset' (in 0:02 mins)
+2023-10-21 10:08:47 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 10:08:47 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 10:08:47 [INFO]: End 'Buliding val dataset' (in 0:02 mins)
+2023-10-21 10:08:48 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 23.71/40.00 GB
+2023-10-21 10:08:48 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 23.17/40.00 GB
+2023-10-21 10:08:48 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 23.17/40.00 GB
+2023-10-21 10:08:48 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 23.15/40.00 GB
+2023-10-21 10:08:52 [INFO]: D0: 27.75/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.88/40.00 GB
+2023-10-21 10:14:49 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/top_k_sentences/train_losses.npy
+2023-10-21 10:18:00 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 10:18:00 [INFO]: Using default tokenizer.
+2023-10-21 10:18:03 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 10:18:03 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 10:18:03 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 10:19:10 [INFO]: End 'Calculating BERT score' (in 1:07 mins)
+2023-10-21 10:19:11 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/top_k_sentences/checkpoint-1
+2023-10-21 10:19:11 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (23.78)
+2023-10-21 10:19:11 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/top_k_sentences/train_losses.npy
+2023-10-21 10:19:11 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/top_k_sentences/rouge1.npy
+2023-10-21 10:19:11 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/top_k_sentences/rouge2.npy
+2023-10-21 10:19:11 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/top_k_sentences/rougeL.npy
+2023-10-21 10:19:11 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/top_k_sentences/BERTscore.npy
+2023-10-21 10:19:11 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 10:25:07 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/top_k_sentences/train_losses.npy
+2023-10-21 10:25:07 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/top_k_sentences/rouge1.npy
+2023-10-21 10:25:07 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/top_k_sentences/rouge2.npy
+2023-10-21 10:25:07 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/top_k_sentences/rougeL.npy
+2023-10-21 10:25:07 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/top_k_sentences/BERTscore.npy
+2023-10-21 10:28:13 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 10:28:13 [INFO]: Using default tokenizer.
+2023-10-21 10:28:15 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 10:28:15 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 10:28:15 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 10:29:04 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 10:29:05 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/top_k_sentences/checkpoint-1
+2023-10-21 10:29:05 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (24.22)
+2023-10-21 10:29:05 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/top_k_sentences/train_losses.npy
+2023-10-21 10:29:05 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/top_k_sentences/rouge1.npy
+2023-10-21 10:29:05 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/top_k_sentences/rouge2.npy
+2023-10-21 10:29:05 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/top_k_sentences/rougeL.npy
+2023-10-21 10:29:05 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/top_k_sentences/BERTscore.npy
+2023-10-21 10:29:05 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 10:35:02 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/top_k_sentences/train_losses.npy
+2023-10-21 10:35:02 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/top_k_sentences/rouge1.npy
+2023-10-21 10:35:02 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/top_k_sentences/rouge2.npy
+2023-10-21 10:35:02 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/top_k_sentences/rougeL.npy
+2023-10-21 10:35:02 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/top_k_sentences/BERTscore.npy
+2023-10-21 10:38:15 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 10:38:15 [INFO]: Using default tokenizer.
+2023-10-21 10:38:17 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 10:38:17 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 10:38:17 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 10:39:06 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 10:39:07 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/top_k_sentences/checkpoint-1
+2023-10-21 10:39:07 [INFO]: [End Epoch 3] Reach new highest val rouge-1 (24.34)
+2023-10-21 10:39:07 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/top_k_sentences/train_losses.npy
+2023-10-21 10:39:07 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/top_k_sentences/rouge1.npy
+2023-10-21 10:39:07 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/top_k_sentences/rouge2.npy
+2023-10-21 10:39:07 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/top_k_sentences/rougeL.npy
+2023-10-21 10:39:07 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/top_k_sentences/BERTscore.npy
+2023-10-21 10:39:07 [INFO]: End 'Training' (in 31:06 mins)
+2023-10-21 10:39:07 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_base', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='masking_background') using model bart_base for type masking_background
+2023-10-21 10:39:07 [INFO]: Starting 'Training'
+2023-10-21 10:39:07 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 10:39:07 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 10:39:07 [INFO]: Train and Validation Data loaded
+2023-10-21 10:39:31 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 10:39:31 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 10:39:56 [INFO]: End 'Buliding MyDataset' (in 0:25 mins)
+2023-10-21 10:39:56 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 10:39:56 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 10:39:56 [INFO]: End 'Buliding train dataset' (in 0:25 mins)
+2023-10-21 10:39:56 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 10:39:56 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 10:39:59 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 10:39:59 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 10:39:59 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 10:39:59 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 10:39:59 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 30.09/40.00 GB
+2023-10-21 10:39:59 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 10:39:59 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 10:39:59 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 10:39:59 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 10:45:58 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/masking_background/train_losses.npy
+2023-10-21 10:49:09 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 10:49:09 [INFO]: Using default tokenizer.
+2023-10-21 10:49:12 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 10:49:12 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 10:49:12 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 10:50:09 [INFO]: End 'Calculating BERT score' (in 0:56 mins)
+2023-10-21 10:50:09 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/masking_background/checkpoint-1
+2023-10-21 10:50:09 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (29.55)
+2023-10-21 10:50:09 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/masking_background/train_losses.npy
+2023-10-21 10:50:09 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/masking_background/rouge1.npy
+2023-10-21 10:50:09 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/masking_background/rouge2.npy
+2023-10-21 10:50:09 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/masking_background/rougeL.npy
+2023-10-21 10:50:09 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/masking_background/BERTscore.npy
+2023-10-21 10:50:10 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 10:56:06 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/masking_background/train_losses.npy
+2023-10-21 10:56:06 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/masking_background/rouge1.npy
+2023-10-21 10:56:06 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/masking_background/rouge2.npy
+2023-10-21 10:56:06 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/masking_background/rougeL.npy
+2023-10-21 10:56:06 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/masking_background/BERTscore.npy
+2023-10-21 10:59:08 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 10:59:08 [INFO]: Using default tokenizer.
+2023-10-21 10:59:11 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 10:59:11 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 10:59:11 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 10:59:59 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 11:00:00 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/masking_background/checkpoint-1
+2023-10-21 11:00:00 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (30.59)
+2023-10-21 11:00:00 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/masking_background/train_losses.npy
+2023-10-21 11:00:00 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/masking_background/rouge1.npy
+2023-10-21 11:00:00 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/masking_background/rouge2.npy
+2023-10-21 11:00:00 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/masking_background/rougeL.npy
+2023-10-21 11:00:00 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/masking_background/BERTscore.npy
+2023-10-21 11:00:00 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 11:05:58 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/masking_background/train_losses.npy
+2023-10-21 11:05:58 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/masking_background/rouge1.npy
+2023-10-21 11:05:58 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/masking_background/rouge2.npy
+2023-10-21 11:05:58 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/masking_background/rougeL.npy
+2023-10-21 11:05:58 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/masking_background/BERTscore.npy
+2023-10-21 11:08:53 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 11:08:53 [INFO]: Using default tokenizer.
+2023-10-21 11:08:56 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 11:08:56 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 11:08:56 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 11:09:44 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 11:09:44 [INFO]: [End Epoch 3] Not saved model (Val rouge-1 = 30.57)
+2023-10-21 11:09:44 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/masking_background/train_losses.npy
+2023-10-21 11:09:44 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/masking_background/rouge1.npy
+2023-10-21 11:09:44 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/masking_background/rouge2.npy
+2023-10-21 11:09:44 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/masking_background/rougeL.npy
+2023-10-21 11:09:44 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/masking_background/BERTscore.npy
+2023-10-21 11:09:44 [INFO]: End 'Training' (in 30:36 mins)
+2023-10-21 11:09:44 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_base', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='bg_top_k_sentences') using model bart_base for type bg_top_k_sentences
+2023-10-21 11:09:44 [INFO]: Starting 'Training'
+2023-10-21 11:09:44 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 11:09:44 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 11:09:44 [INFO]: Train and Validation Data loaded
+2023-10-21 11:10:07 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 11:10:07 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 11:10:32 [INFO]: End 'Buliding MyDataset' (in 0:24 mins)
+2023-10-21 11:10:32 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 11:10:32 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 11:10:32 [INFO]: End 'Buliding train dataset' (in 0:24 mins)
+2023-10-21 11:10:32 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 11:10:32 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 11:10:35 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 11:10:35 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 11:10:35 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 11:10:35 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 11:10:35 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 30.09/40.00 GB
+2023-10-21 11:10:35 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 11:10:35 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 11:10:35 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 11:10:36 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 11:16:31 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/bg_top_k_sentences/train_losses.npy
+2023-10-21 11:19:42 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 11:19:42 [INFO]: Using default tokenizer.
+2023-10-21 11:19:44 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 11:19:44 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 11:19:44 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 11:20:33 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 11:20:34 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/bg_top_k_sentences/checkpoint-1
+2023-10-21 11:20:34 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (29.96)
+2023-10-21 11:20:34 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/bg_top_k_sentences/train_losses.npy
+2023-10-21 11:20:34 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge1.npy
+2023-10-21 11:20:34 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge2.npy
+2023-10-21 11:20:34 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/bg_top_k_sentences/rougeL.npy
+2023-10-21 11:20:34 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/bg_top_k_sentences/BERTscore.npy
+2023-10-21 11:20:34 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 11:26:32 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/bg_top_k_sentences/train_losses.npy
+2023-10-21 11:26:32 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge1.npy
+2023-10-21 11:26:32 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge2.npy
+2023-10-21 11:26:32 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/bg_top_k_sentences/rougeL.npy
+2023-10-21 11:26:32 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/bg_top_k_sentences/BERTscore.npy
+2023-10-21 11:29:31 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 11:29:31 [INFO]: Using default tokenizer.
+2023-10-21 11:29:34 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 11:29:34 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 11:29:34 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 11:30:22 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 11:30:23 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/bg_top_k_sentences/checkpoint-1
+2023-10-21 11:30:23 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (30.07)
+2023-10-21 11:30:23 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/bg_top_k_sentences/train_losses.npy
+2023-10-21 11:30:23 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge1.npy
+2023-10-21 11:30:23 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge2.npy
+2023-10-21 11:30:23 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/bg_top_k_sentences/rougeL.npy
+2023-10-21 11:30:23 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/bg_top_k_sentences/BERTscore.npy
+2023-10-21 11:30:24 [INFO]: D0: 30.09/40.00 GB | D1: 24.90/40.00 GB | D2: 24.90/40.00 GB | D3: 24.90/40.00 GB
+2023-10-21 11:36:21 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/bg_top_k_sentences/train_losses.npy
+2023-10-21 11:36:21 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge1.npy
+2023-10-21 11:36:21 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge2.npy
+2023-10-21 11:36:21 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/bg_top_k_sentences/rougeL.npy
+2023-10-21 11:36:21 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/bg_top_k_sentences/BERTscore.npy
+2023-10-21 11:39:29 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 11:39:29 [INFO]: Using default tokenizer.
+2023-10-21 11:39:31 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 11:39:31 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 11:39:31 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 11:40:20 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 11:40:21 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_base/bg_top_k_sentences/checkpoint-1
+2023-10-21 11:40:21 [INFO]: [End Epoch 3] Reach new highest val rouge-1 (30.76)
+2023-10-21 11:40:21 [INFO]: Saved train_losses to random_0.15/generator_records/bart_base/bg_top_k_sentences/train_losses.npy
+2023-10-21 11:40:21 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge1.npy
+2023-10-21 11:40:21 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_base/bg_top_k_sentences/rouge2.npy
+2023-10-21 11:40:21 [INFO]: Saved rougeL to random_0.15/generator_records/bart_base/bg_top_k_sentences/rougeL.npy
+2023-10-21 11:40:21 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_base/bg_top_k_sentences/BERTscore.npy
+2023-10-21 11:40:21 [INFO]: End 'Training' (in 30:36 mins)
+2023-10-21 11:40:21 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_large', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='top_k_sentences') using model bart_large for type top_k_sentences
+2023-10-21 11:40:21 [INFO]: Starting 'Training'
+2023-10-21 11:40:21 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 11:40:21 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 11:40:21 [INFO]: Train and Validation Data loaded
+2023-10-21 11:40:43 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 11:40:43 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 11:40:59 [INFO]: End 'Buliding MyDataset' (in 0:15 mins)
+2023-10-21 11:40:59 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 11:40:59 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 11:40:59 [INFO]: End 'Buliding train dataset' (in 0:15 mins)
+2023-10-21 11:40:59 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 11:40:59 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 11:41:01 [INFO]: End 'Buliding MyDataset' (in 0:02 mins)
+2023-10-21 11:41:01 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 11:41:01 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 11:41:01 [INFO]: End 'Buliding val dataset' (in 0:02 mins)
+2023-10-21 11:41:01 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 30.09/40.00 GB
+2023-10-21 11:41:01 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 11:41:01 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 11:41:01 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 24.90/40.00 GB
+2023-10-21 11:41:02 [INFO]: D0: 30.09/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.05/40.00 GB
+2023-10-21 11:56:17 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/top_k_sentences/train_losses.npy
+2023-10-21 12:02:07 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 12:02:07 [INFO]: Using default tokenizer.
+2023-10-21 12:02:10 [INFO]: End 'Calculating Rouge score' (in 0:03 mins)
+2023-10-21 12:02:10 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 12:02:10 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 12:03:15 [INFO]: End 'Calculating BERT score' (in 1:05 mins)
+2023-10-21 12:03:18 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/top_k_sentences/checkpoint-1
+2023-10-21 12:03:18 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (18.71)
+2023-10-21 12:03:18 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/top_k_sentences/train_losses.npy
+2023-10-21 12:03:18 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/top_k_sentences/rouge1.npy
+2023-10-21 12:03:18 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/top_k_sentences/rouge2.npy
+2023-10-21 12:03:18 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/top_k_sentences/rougeL.npy
+2023-10-21 12:03:18 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/top_k_sentences/BERTscore.npy
+2023-10-21 12:03:19 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 12:18:29 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/top_k_sentences/train_losses.npy
+2023-10-21 12:18:29 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/top_k_sentences/rouge1.npy
+2023-10-21 12:18:29 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/top_k_sentences/rouge2.npy
+2023-10-21 12:18:29 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/top_k_sentences/rougeL.npy
+2023-10-21 12:18:29 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/top_k_sentences/BERTscore.npy
+2023-10-21 12:23:22 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 12:23:22 [INFO]: Using default tokenizer.
+2023-10-21 12:23:25 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 12:23:25 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 12:23:25 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 12:24:14 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 12:24:14 [INFO]: [End Epoch 2] Not saved model (Val rouge-1 = 18.71)
+2023-10-21 12:24:14 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/top_k_sentences/train_losses.npy
+2023-10-21 12:24:14 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/top_k_sentences/rouge1.npy
+2023-10-21 12:24:14 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/top_k_sentences/rouge2.npy
+2023-10-21 12:24:14 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/top_k_sentences/rougeL.npy
+2023-10-21 12:24:14 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/top_k_sentences/BERTscore.npy
+2023-10-21 12:24:14 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 12:39:26 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/top_k_sentences/train_losses.npy
+2023-10-21 12:39:26 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/top_k_sentences/rouge1.npy
+2023-10-21 12:39:26 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/top_k_sentences/rouge2.npy
+2023-10-21 12:39:26 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/top_k_sentences/rougeL.npy
+2023-10-21 12:39:26 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/top_k_sentences/BERTscore.npy
+2023-10-21 12:44:27 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 12:44:27 [INFO]: Using default tokenizer.
+2023-10-21 12:44:30 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 12:44:30 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 12:44:30 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 12:45:19 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 12:45:21 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/top_k_sentences/checkpoint-1
+2023-10-21 12:45:21 [INFO]: [End Epoch 3] Reach new highest val rouge-1 (18.96)
+2023-10-21 12:45:21 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/top_k_sentences/train_losses.npy
+2023-10-21 12:45:21 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/top_k_sentences/rouge1.npy
+2023-10-21 12:45:21 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/top_k_sentences/rouge2.npy
+2023-10-21 12:45:21 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/top_k_sentences/rougeL.npy
+2023-10-21 12:45:21 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/top_k_sentences/BERTscore.npy
+2023-10-21 12:45:21 [INFO]: End 'Training' (in 1:05:00 hrs)
+2023-10-21 12:45:21 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_large', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='masking_background') using model bart_large for type masking_background
+2023-10-21 12:45:21 [INFO]: Starting 'Training'
+2023-10-21 12:45:21 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 12:45:21 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 12:45:21 [INFO]: Train and Validation Data loaded
+2023-10-21 12:45:44 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 12:45:44 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 12:46:09 [INFO]: End 'Buliding MyDataset' (in 0:25 mins)
+2023-10-21 12:46:09 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 12:46:09 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 12:46:09 [INFO]: End 'Buliding train dataset' (in 0:25 mins)
+2023-10-21 12:46:09 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 12:46:09 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 12:46:13 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 12:46:13 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 12:46:13 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 12:46:13 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 12:46:13 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 12:46:13 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 12:46:13 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 12:46:13 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 12:46:14 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 13:01:31 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/masking_background/train_losses.npy
+2023-10-21 13:06:17 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 13:06:17 [INFO]: Using default tokenizer.
+2023-10-21 13:06:19 [INFO]: End 'Calculating Rouge score' (in 0:01 mins)
+2023-10-21 13:06:19 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 13:06:19 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 13:07:20 [INFO]: End 'Calculating BERT score' (in 1:01 mins)
+2023-10-21 13:07:23 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/masking_background/checkpoint-1
+2023-10-21 13:07:23 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (19.12)
+2023-10-21 13:07:23 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/masking_background/train_losses.npy
+2023-10-21 13:07:23 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/masking_background/rouge1.npy
+2023-10-21 13:07:23 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/masking_background/rouge2.npy
+2023-10-21 13:07:23 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/masking_background/rougeL.npy
+2023-10-21 13:07:23 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/masking_background/BERTscore.npy
+2023-10-21 13:07:24 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 13:22:34 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/masking_background/train_losses.npy
+2023-10-21 13:22:34 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/masking_background/rouge1.npy
+2023-10-21 13:22:34 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/masking_background/rouge2.npy
+2023-10-21 13:22:34 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/masking_background/rougeL.npy
+2023-10-21 13:22:34 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/masking_background/BERTscore.npy
+2023-10-21 13:28:37 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 13:28:37 [INFO]: Using default tokenizer.
+2023-10-21 13:28:38 [INFO]: End 'Calculating Rouge score' (in 0:01 mins)
+2023-10-21 13:28:38 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 13:28:38 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 13:29:39 [INFO]: End 'Calculating BERT score' (in 1:01 mins)
+2023-10-21 13:29:42 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/masking_background/checkpoint-1
+2023-10-21 13:29:42 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (21.11)
+2023-10-21 13:29:42 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/masking_background/train_losses.npy
+2023-10-21 13:29:42 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/masking_background/rouge1.npy
+2023-10-21 13:29:42 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/masking_background/rouge2.npy
+2023-10-21 13:29:42 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/masking_background/rougeL.npy
+2023-10-21 13:29:42 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/masking_background/BERTscore.npy
+2023-10-21 13:29:43 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 13:44:54 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/masking_background/train_losses.npy
+2023-10-21 13:44:54 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/masking_background/rouge1.npy
+2023-10-21 13:44:54 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/masking_background/rouge2.npy
+2023-10-21 13:44:54 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/masking_background/rougeL.npy
+2023-10-21 13:44:54 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/masking_background/BERTscore.npy
+2023-10-21 13:50:41 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 13:50:41 [INFO]: Using default tokenizer.
+2023-10-21 13:50:43 [INFO]: End 'Calculating Rouge score' (in 0:01 mins)
+2023-10-21 13:50:43 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 13:50:43 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 13:51:30 [INFO]: End 'Calculating BERT score' (in 0:47 mins)
+2023-10-21 13:51:30 [INFO]: [End Epoch 3] Not saved model (Val rouge-1 = 20.89)
+2023-10-21 13:51:30 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/masking_background/train_losses.npy
+2023-10-21 13:51:30 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/masking_background/rouge1.npy
+2023-10-21 13:51:30 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/masking_background/rouge2.npy
+2023-10-21 13:51:30 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/masking_background/rougeL.npy
+2023-10-21 13:51:30 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/masking_background/BERTscore.npy
+2023-10-21 13:51:30 [INFO]: End 'Training' (in 1:06:08 hrs)
+2023-10-21 13:51:30 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_large', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='bg_top_k_sentences') using model bart_large for type bg_top_k_sentences
+2023-10-21 13:51:30 [INFO]: Starting 'Training'
+2023-10-21 13:51:30 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 13:51:30 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 13:51:30 [INFO]: Train and Validation Data loaded
+2023-10-21 13:51:52 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 13:51:52 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 13:52:17 [INFO]: End 'Buliding MyDataset' (in 0:24 mins)
+2023-10-21 13:52:17 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 13:52:17 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 13:52:17 [INFO]: End 'Buliding train dataset' (in 0:24 mins)
+2023-10-21 13:52:17 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 13:52:17 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 13:52:20 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 13:52:20 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 13:52:20 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 13:52:20 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 13:52:20 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 13:52:20 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 13:52:20 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 13:52:20 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 13:52:21 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 14:07:39 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/bg_top_k_sentences/train_losses.npy
+2023-10-21 14:12:58 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 14:12:58 [INFO]: Using default tokenizer.
+2023-10-21 14:13:01 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 14:13:01 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 14:13:01 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 14:13:51 [INFO]: End 'Calculating BERT score' (in 0:49 mins)
+2023-10-21 14:13:53 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/bg_top_k_sentences/checkpoint-1
+2023-10-21 14:13:53 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (29.45)
+2023-10-21 14:13:53 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/bg_top_k_sentences/train_losses.npy
+2023-10-21 14:13:53 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge1.npy
+2023-10-21 14:13:53 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge2.npy
+2023-10-21 14:13:53 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/bg_top_k_sentences/rougeL.npy
+2023-10-21 14:13:53 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/bg_top_k_sentences/BERTscore.npy
+2023-10-21 14:13:54 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 14:29:04 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/bg_top_k_sentences/train_losses.npy
+2023-10-21 14:29:04 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge1.npy
+2023-10-21 14:29:04 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge2.npy
+2023-10-21 14:29:04 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/bg_top_k_sentences/rougeL.npy
+2023-10-21 14:29:04 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/bg_top_k_sentences/BERTscore.npy
+2023-10-21 14:34:25 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 14:34:25 [INFO]: Using default tokenizer.
+2023-10-21 14:34:28 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 14:34:28 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 14:34:28 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 14:35:33 [INFO]: End 'Calculating BERT score' (in 1:05 mins)
+2023-10-21 14:35:36 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/bg_top_k_sentences/checkpoint-1
+2023-10-21 14:35:36 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (29.60)
+2023-10-21 14:35:36 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/bg_top_k_sentences/train_losses.npy
+2023-10-21 14:35:36 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge1.npy
+2023-10-21 14:35:36 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge2.npy
+2023-10-21 14:35:36 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/bg_top_k_sentences/rougeL.npy
+2023-10-21 14:35:36 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/bg_top_k_sentences/BERTscore.npy
+2023-10-21 14:35:37 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 14:50:48 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/bg_top_k_sentences/train_losses.npy
+2023-10-21 14:50:48 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge1.npy
+2023-10-21 14:50:48 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge2.npy
+2023-10-21 14:50:48 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/bg_top_k_sentences/rougeL.npy
+2023-10-21 14:50:48 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/bg_top_k_sentences/BERTscore.npy
+2023-10-21 14:55:40 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 14:55:40 [INFO]: Using default tokenizer.
+2023-10-21 14:55:42 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 14:55:42 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 14:55:42 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 14:56:31 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 14:56:33 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_large/bg_top_k_sentences/checkpoint-1
+2023-10-21 14:56:33 [INFO]: [End Epoch 3] Reach new highest val rouge-1 (30.01)
+2023-10-21 14:56:33 [INFO]: Saved train_losses to random_0.15/generator_records/bart_large/bg_top_k_sentences/train_losses.npy
+2023-10-21 14:56:33 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge1.npy
+2023-10-21 14:56:33 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_large/bg_top_k_sentences/rouge2.npy
+2023-10-21 14:56:33 [INFO]: Saved rougeL to random_0.15/generator_records/bart_large/bg_top_k_sentences/rougeL.npy
+2023-10-21 14:56:33 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_large/bg_top_k_sentences/BERTscore.npy
+2023-10-21 14:56:33 [INFO]: End 'Training' (in 1:05:03 hrs)
+2023-10-21 14:56:33 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_cnn', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='top_k_sentences') using model bart_cnn for type top_k_sentences
+2023-10-21 14:56:33 [INFO]: Starting 'Training'
+2023-10-21 14:56:33 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 14:56:33 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 14:56:33 [INFO]: Train and Validation Data loaded
+2023-10-21 14:56:56 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 14:56:56 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 14:57:12 [INFO]: End 'Buliding MyDataset' (in 0:15 mins)
+2023-10-21 14:57:12 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 14:57:12 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 14:57:12 [INFO]: End 'Buliding train dataset' (in 0:15 mins)
+2023-10-21 14:57:12 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 14:57:12 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 14:57:14 [INFO]: End 'Buliding MyDataset' (in 0:01 mins)
+2023-10-21 14:57:14 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 14:57:14 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 14:57:14 [INFO]: End 'Buliding val dataset' (in 0:01 mins)
+2023-10-21 14:57:14 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 14:57:14 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 14:57:14 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 14:57:14 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 14:57:15 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 15:11:56 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/top_k_sentences/train_losses.npy
+2023-10-21 15:17:53 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 15:17:53 [INFO]: Using default tokenizer.
+2023-10-21 15:17:57 [INFO]: End 'Calculating Rouge score' (in 0:03 mins)
+2023-10-21 15:17:57 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 15:17:57 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 15:18:47 [INFO]: End 'Calculating BERT score' (in 0:50 mins)
+2023-10-21 15:18:49 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_cnn/top_k_sentences/checkpoint-1
+2023-10-21 15:18:49 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (24.45)
+2023-10-21 15:18:49 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/top_k_sentences/train_losses.npy
+2023-10-21 15:18:49 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge1.npy
+2023-10-21 15:18:49 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge2.npy
+2023-10-21 15:18:49 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/top_k_sentences/rougeL.npy
+2023-10-21 15:18:49 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/top_k_sentences/BERTscore.npy
+2023-10-21 15:18:50 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 15:33:27 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/top_k_sentences/train_losses.npy
+2023-10-21 15:33:27 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge1.npy
+2023-10-21 15:33:27 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge2.npy
+2023-10-21 15:33:27 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/top_k_sentences/rougeL.npy
+2023-10-21 15:33:27 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/top_k_sentences/BERTscore.npy
+2023-10-21 15:38:13 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 15:38:13 [INFO]: Using default tokenizer.
+2023-10-21 15:38:16 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 15:38:16 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 15:38:16 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 15:39:17 [INFO]: End 'Calculating BERT score' (in 1:01 mins)
+2023-10-21 15:39:17 [INFO]: [End Epoch 2] Not saved model (Val rouge-1 = 24.29)
+2023-10-21 15:39:17 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/top_k_sentences/train_losses.npy
+2023-10-21 15:39:17 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge1.npy
+2023-10-21 15:39:17 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge2.npy
+2023-10-21 15:39:17 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/top_k_sentences/rougeL.npy
+2023-10-21 15:39:17 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/top_k_sentences/BERTscore.npy
+2023-10-21 15:39:18 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 15:53:57 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/top_k_sentences/train_losses.npy
+2023-10-21 15:53:57 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge1.npy
+2023-10-21 15:53:57 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge2.npy
+2023-10-21 15:53:57 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/top_k_sentences/rougeL.npy
+2023-10-21 15:53:57 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/top_k_sentences/BERTscore.npy
+2023-10-21 16:00:47 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 16:00:47 [INFO]: Using default tokenizer.
+2023-10-21 16:00:49 [INFO]: End 'Calculating Rouge score' (in 0:01 mins)
+2023-10-21 16:00:49 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 16:00:49 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 16:01:44 [INFO]: End 'Calculating BERT score' (in 0:55 mins)
+2023-10-21 16:01:44 [INFO]: [End Epoch 3] Not saved model (Val rouge-1 = 19.69)
+2023-10-21 16:01:44 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/top_k_sentences/train_losses.npy
+2023-10-21 16:01:44 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge1.npy
+2023-10-21 16:01:44 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/top_k_sentences/rouge2.npy
+2023-10-21 16:01:44 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/top_k_sentences/rougeL.npy
+2023-10-21 16:01:44 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/top_k_sentences/BERTscore.npy
+2023-10-21 16:01:45 [INFO]: End 'Training' (in 1:05:11 hrs)
+2023-10-21 16:01:45 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_cnn', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='masking_background') using model bart_cnn for type masking_background
+2023-10-21 16:01:45 [INFO]: Starting 'Training'
+2023-10-21 16:01:45 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 16:01:45 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 16:01:45 [INFO]: Train and Validation Data loaded
+2023-10-21 16:02:08 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 16:02:08 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 16:02:33 [INFO]: End 'Buliding MyDataset' (in 0:25 mins)
+2023-10-21 16:02:33 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 16:02:33 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 16:02:33 [INFO]: End 'Buliding train dataset' (in 0:25 mins)
+2023-10-21 16:02:33 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 16:02:33 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 16:02:36 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 16:02:36 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 16:02:36 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 16:02:36 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 16:02:36 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 16:02:36 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 16:02:36 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 16:02:36 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 16:02:37 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 16:17:20 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/masking_background/train_losses.npy
+2023-10-21 16:21:46 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 16:21:46 [INFO]: Using default tokenizer.
+2023-10-21 16:21:48 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 16:21:48 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 16:21:48 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 16:22:37 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 16:22:40 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_cnn/masking_background/checkpoint-1
+2023-10-21 16:22:40 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (30.89)
+2023-10-21 16:22:40 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/masking_background/train_losses.npy
+2023-10-21 16:22:40 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/masking_background/rouge1.npy
+2023-10-21 16:22:40 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/masking_background/rouge2.npy
+2023-10-21 16:22:40 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/masking_background/rougeL.npy
+2023-10-21 16:22:40 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/masking_background/BERTscore.npy
+2023-10-21 16:22:41 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 16:37:17 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/masking_background/train_losses.npy
+2023-10-21 16:37:17 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/masking_background/rouge1.npy
+2023-10-21 16:37:17 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/masking_background/rouge2.npy
+2023-10-21 16:37:17 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/masking_background/rougeL.npy
+2023-10-21 16:37:17 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/masking_background/BERTscore.npy
+2023-10-21 16:41:49 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 16:41:49 [INFO]: Using default tokenizer.
+2023-10-21 16:41:52 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 16:41:52 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 16:41:52 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 16:42:40 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 16:42:42 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_cnn/masking_background/checkpoint-1
+2023-10-21 16:42:42 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (31.26)
+2023-10-21 16:42:42 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/masking_background/train_losses.npy
+2023-10-21 16:42:42 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/masking_background/rouge1.npy
+2023-10-21 16:42:42 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/masking_background/rouge2.npy
+2023-10-21 16:42:42 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/masking_background/rougeL.npy
+2023-10-21 16:42:42 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/masking_background/BERTscore.npy
+2023-10-21 16:42:43 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 16:57:21 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/masking_background/train_losses.npy
+2023-10-21 16:57:21 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/masking_background/rouge1.npy
+2023-10-21 16:57:21 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/masking_background/rouge2.npy
+2023-10-21 16:57:21 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/masking_background/rougeL.npy
+2023-10-21 16:57:21 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/masking_background/BERTscore.npy
+2023-10-21 17:02:07 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 17:02:07 [INFO]: Using default tokenizer.
+2023-10-21 17:02:09 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 17:02:09 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 17:02:09 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 17:02:57 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 17:02:57 [INFO]: [End Epoch 3] Not saved model (Val rouge-1 = 31.21)
+2023-10-21 17:02:57 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/masking_background/train_losses.npy
+2023-10-21 17:02:57 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/masking_background/rouge1.npy
+2023-10-21 17:02:57 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/masking_background/rouge2.npy
+2023-10-21 17:02:57 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/masking_background/rougeL.npy
+2023-10-21 17:02:57 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/masking_background/BERTscore.npy
+2023-10-21 17:02:57 [INFO]: End 'Training' (in 1:01:12 hrs)
+2023-10-21 17:02:57 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_cnn', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='bg_top_k_sentences') using model bart_cnn for type bg_top_k_sentences
+2023-10-21 17:02:57 [INFO]: Starting 'Training'
+2023-10-21 17:02:57 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 17:02:57 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 17:02:57 [INFO]: Train and Validation Data loaded
+2023-10-21 17:03:21 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 17:03:21 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 17:03:45 [INFO]: End 'Buliding MyDataset' (in 0:24 mins)
+2023-10-21 17:03:45 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 17:03:45 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 17:03:45 [INFO]: End 'Buliding train dataset' (in 0:24 mins)
+2023-10-21 17:03:45 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 17:03:45 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 17:03:48 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 17:03:48 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 17:03:48 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 17:03:48 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 17:03:48 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 17:03:48 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 17:03:48 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 17:03:48 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 17:03:49 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 17:18:31 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/train_losses.npy
+2023-10-21 17:23:02 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 17:23:02 [INFO]: Using default tokenizer.
+2023-10-21 17:23:05 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 17:23:05 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 17:23:05 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 17:24:09 [INFO]: End 'Calculating BERT score' (in 1:04 mins)
+2023-10-21 17:24:12 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_cnn/bg_top_k_sentences/checkpoint-1
+2023-10-21 17:24:12 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (30.30)
+2023-10-21 17:24:12 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/train_losses.npy
+2023-10-21 17:24:12 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge1.npy
+2023-10-21 17:24:12 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge2.npy
+2023-10-21 17:24:12 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rougeL.npy
+2023-10-21 17:24:12 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/BERTscore.npy
+2023-10-21 17:24:13 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 17:38:49 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/train_losses.npy
+2023-10-21 17:38:49 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge1.npy
+2023-10-21 17:38:49 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge2.npy
+2023-10-21 17:38:49 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rougeL.npy
+2023-10-21 17:38:49 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/BERTscore.npy
+2023-10-21 17:43:21 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 17:43:21 [INFO]: Using default tokenizer.
+2023-10-21 17:43:23 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 17:43:23 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 17:43:23 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 17:44:11 [INFO]: End 'Calculating BERT score' (in 0:47 mins)
+2023-10-21 17:44:13 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_cnn/bg_top_k_sentences/checkpoint-1
+2023-10-21 17:44:13 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (30.71)
+2023-10-21 17:44:13 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/train_losses.npy
+2023-10-21 17:44:13 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge1.npy
+2023-10-21 17:44:13 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge2.npy
+2023-10-21 17:44:13 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rougeL.npy
+2023-10-21 17:44:13 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/BERTscore.npy
+2023-10-21 17:44:14 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 17:58:52 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/train_losses.npy
+2023-10-21 17:58:52 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge1.npy
+2023-10-21 17:58:52 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge2.npy
+2023-10-21 17:58:52 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rougeL.npy
+2023-10-21 17:58:52 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/BERTscore.npy
+2023-10-21 18:03:24 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 18:03:24 [INFO]: Using default tokenizer.
+2023-10-21 18:03:26 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 18:03:26 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 18:03:26 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 18:04:26 [INFO]: End 'Calculating BERT score' (in 1:00 mins)
+2023-10-21 18:04:29 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_cnn/bg_top_k_sentences/checkpoint-1
+2023-10-21 18:04:29 [INFO]: [End Epoch 3] Reach new highest val rouge-1 (30.78)
+2023-10-21 18:04:29 [INFO]: Saved train_losses to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/train_losses.npy
+2023-10-21 18:04:29 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge1.npy
+2023-10-21 18:04:29 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rouge2.npy
+2023-10-21 18:04:29 [INFO]: Saved rougeL to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/rougeL.npy
+2023-10-21 18:04:29 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_cnn/bg_top_k_sentences/BERTscore.npy
+2023-10-21 18:04:29 [INFO]: End 'Training' (in 1:01:32 hrs)
+2023-10-21 18:04:29 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_xsum', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='top_k_sentences') using model bart_xsum for type top_k_sentences
+2023-10-21 18:04:29 [INFO]: Starting 'Training'
+2023-10-21 18:04:29 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 18:04:29 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 18:04:29 [INFO]: Train and Validation Data loaded
+2023-10-21 18:04:52 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 18:04:52 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 18:05:08 [INFO]: End 'Buliding MyDataset' (in 0:15 mins)
+2023-10-21 18:05:08 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 18:05:08 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 18:05:08 [INFO]: End 'Buliding train dataset' (in 0:15 mins)
+2023-10-21 18:05:08 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 18:05:08 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 18:05:10 [INFO]: End 'Buliding MyDataset' (in 0:02 mins)
+2023-10-21 18:05:10 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 18:05:10 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 18:05:10 [INFO]: End 'Buliding val dataset' (in 0:02 mins)
+2023-10-21 18:05:10 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 18:05:10 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 18:05:10 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 18:05:10 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 18:05:11 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 18:19:53 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/top_k_sentences/train_losses.npy
+2023-10-21 18:25:48 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 18:25:48 [INFO]: Using default tokenizer.
+2023-10-21 18:25:51 [INFO]: End 'Calculating Rouge score' (in 0:03 mins)
+2023-10-21 18:25:51 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 18:25:51 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 18:26:41 [INFO]: End 'Calculating BERT score' (in 0:49 mins)
+2023-10-21 18:26:43 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_xsum/top_k_sentences/checkpoint-1
+2023-10-21 18:26:43 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (24.49)
+2023-10-21 18:26:43 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/top_k_sentences/train_losses.npy
+2023-10-21 18:26:43 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge1.npy
+2023-10-21 18:26:43 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge2.npy
+2023-10-21 18:26:43 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/top_k_sentences/rougeL.npy
+2023-10-21 18:26:43 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/top_k_sentences/BERTscore.npy
+2023-10-21 18:26:44 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 18:41:21 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/top_k_sentences/train_losses.npy
+2023-10-21 18:41:21 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge1.npy
+2023-10-21 18:41:21 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge2.npy
+2023-10-21 18:41:21 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/top_k_sentences/rougeL.npy
+2023-10-21 18:41:21 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/top_k_sentences/BERTscore.npy
+2023-10-21 18:45:58 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 18:45:58 [INFO]: Using default tokenizer.
+2023-10-21 18:46:00 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 18:46:00 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 18:46:00 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 18:46:57 [INFO]: End 'Calculating BERT score' (in 0:56 mins)
+2023-10-21 18:46:59 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_xsum/top_k_sentences/checkpoint-1
+2023-10-21 18:46:59 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (25.09)
+2023-10-21 18:46:59 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/top_k_sentences/train_losses.npy
+2023-10-21 18:46:59 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge1.npy
+2023-10-21 18:46:59 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge2.npy
+2023-10-21 18:46:59 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/top_k_sentences/rougeL.npy
+2023-10-21 18:46:59 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/top_k_sentences/BERTscore.npy
+2023-10-21 18:47:00 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 19:01:38 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/top_k_sentences/train_losses.npy
+2023-10-21 19:01:38 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge1.npy
+2023-10-21 19:01:38 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge2.npy
+2023-10-21 19:01:38 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/top_k_sentences/rougeL.npy
+2023-10-21 19:01:38 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/top_k_sentences/BERTscore.npy
+2023-10-21 19:06:45 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 19:06:45 [INFO]: Using default tokenizer.
+2023-10-21 19:06:48 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 19:06:48 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 19:06:48 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 19:07:47 [INFO]: End 'Calculating BERT score' (in 0:59 mins)
+2023-10-21 19:07:47 [INFO]: [End Epoch 3] Not saved model (Val rouge-1 = 23.51)
+2023-10-21 19:07:47 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/top_k_sentences/train_losses.npy
+2023-10-21 19:07:47 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge1.npy
+2023-10-21 19:07:47 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/top_k_sentences/rouge2.npy
+2023-10-21 19:07:47 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/top_k_sentences/rougeL.npy
+2023-10-21 19:07:47 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/top_k_sentences/BERTscore.npy
+2023-10-21 19:07:47 [INFO]: End 'Training' (in 1:03:17 hrs)
+2023-10-21 19:07:47 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_xsum', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='masking_background') using model bart_xsum for type masking_background
+2023-10-21 19:07:47 [INFO]: Starting 'Training'
+2023-10-21 19:07:47 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 19:07:47 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 19:07:47 [INFO]: Train and Validation Data loaded
+2023-10-21 19:08:10 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 19:08:10 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 19:08:35 [INFO]: End 'Buliding MyDataset' (in 0:24 mins)
+2023-10-21 19:08:35 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 19:08:35 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 19:08:35 [INFO]: End 'Buliding train dataset' (in 0:24 mins)
+2023-10-21 19:08:35 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 19:08:35 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 19:08:38 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 19:08:38 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 19:08:38 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 19:08:38 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 19:08:38 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 19:08:38 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 19:08:38 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 19:08:38 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 19:08:39 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 19:23:22 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/masking_background/train_losses.npy
+2023-10-21 19:28:30 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 19:28:30 [INFO]: Using default tokenizer.
+2023-10-21 19:28:33 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 19:28:33 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 19:28:33 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 19:29:39 [INFO]: End 'Calculating BERT score' (in 1:05 mins)
+2023-10-21 19:29:42 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_xsum/masking_background/checkpoint-1
+2023-10-21 19:29:42 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (27.98)
+2023-10-21 19:29:42 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/masking_background/train_losses.npy
+2023-10-21 19:29:42 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/masking_background/rouge1.npy
+2023-10-21 19:29:42 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/masking_background/rouge2.npy
+2023-10-21 19:29:42 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/masking_background/rougeL.npy
+2023-10-21 19:29:42 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/masking_background/BERTscore.npy
+2023-10-21 19:29:42 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 19:44:19 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/masking_background/train_losses.npy
+2023-10-21 19:44:19 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/masking_background/rouge1.npy
+2023-10-21 19:44:19 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/masking_background/rouge2.npy
+2023-10-21 19:44:19 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/masking_background/rougeL.npy
+2023-10-21 19:44:19 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/masking_background/BERTscore.npy
+2023-10-21 19:48:58 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 19:48:58 [INFO]: Using default tokenizer.
+2023-10-21 19:49:01 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 19:49:01 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 19:49:01 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 19:49:49 [INFO]: End 'Calculating BERT score' (in 0:48 mins)
+2023-10-21 19:49:51 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_xsum/masking_background/checkpoint-1
+2023-10-21 19:49:51 [INFO]: [End Epoch 2] Reach new highest val rouge-1 (30.14)
+2023-10-21 19:49:51 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/masking_background/train_losses.npy
+2023-10-21 19:49:51 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/masking_background/rouge1.npy
+2023-10-21 19:49:51 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/masking_background/rouge2.npy
+2023-10-21 19:49:51 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/masking_background/rougeL.npy
+2023-10-21 19:49:51 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/masking_background/BERTscore.npy
+2023-10-21 19:49:52 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 20:04:31 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/masking_background/train_losses.npy
+2023-10-21 20:04:31 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/masking_background/rouge1.npy
+2023-10-21 20:04:31 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/masking_background/rouge2.npy
+2023-10-21 20:04:31 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/masking_background/rougeL.npy
+2023-10-21 20:04:31 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/masking_background/BERTscore.npy
+2023-10-21 20:09:07 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 20:09:07 [INFO]: Using default tokenizer.
+2023-10-21 20:09:10 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 20:09:10 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 20:09:10 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 20:10:10 [INFO]: End 'Calculating BERT score' (in 0:59 mins)
+2023-10-21 20:10:13 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_xsum/masking_background/checkpoint-1
+2023-10-21 20:10:13 [INFO]: [End Epoch 3] Reach new highest val rouge-1 (30.90)
+2023-10-21 20:10:13 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/masking_background/train_losses.npy
+2023-10-21 20:10:13 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/masking_background/rouge1.npy
+2023-10-21 20:10:13 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/masking_background/rouge2.npy
+2023-10-21 20:10:13 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/masking_background/rougeL.npy
+2023-10-21 20:10:13 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/masking_background/BERTscore.npy
+2023-10-21 20:10:13 [INFO]: End 'Training' (in 1:02:25 hrs)
+2023-10-21 20:10:13 [INFO]: Start training with Namespace(log=True, log_dir='generating', full=False, train_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_train.csv', val_file='/home/akoirala/Thesis/Data-Pipeline/random_0.15/trail_result/Top_2_sentences_with_token_length_for_each_ReviewID_dev.csv', model='bart_xsum', bs=12, lr=3e-05, n_epoch=3, num_beams=4, exp_name='PICO-trail', train_id='20231021-1008', type='bg_top_k_sentences') using model bart_xsum for type bg_top_k_sentences
+2023-10-21 20:10:13 [INFO]: Starting 'Training'
+2023-10-21 20:10:13 [INFO]: Imported 13978 rows of train dataset
+2023-10-21 20:10:13 [INFO]: Imported 1983 rows of val dataset
+2023-10-21 20:10:13 [INFO]: Train and Validation Data loaded
+2023-10-21 20:10:36 [INFO]: Starting 'Buliding train dataset'
+2023-10-21 20:10:36 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 20:11:01 [INFO]: End 'Buliding MyDataset' (in 0:24 mins)
+2023-10-21 20:11:01 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 20:11:01 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 20:11:01 [INFO]: End 'Buliding train dataset' (in 0:24 mins)
+2023-10-21 20:11:01 [INFO]: Starting 'Buliding val dataset'
+2023-10-21 20:11:01 [INFO]: Starting 'Buliding MyDataset'
+2023-10-21 20:11:04 [INFO]: End 'Buliding MyDataset' (in 0:03 mins)
+2023-10-21 20:11:04 [INFO]: Starting 'Buliding DataLoader'
+2023-10-21 20:11:04 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-10-21 20:11:04 [INFO]: End 'Buliding val dataset' (in 0:03 mins)
+2023-10-21 20:11:04 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 34.24/40.00 GB
+2023-10-21 20:11:04 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 20:11:04 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 27.05/40.00 GB
+2023-10-21 20:11:04 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 27.09/40.00 GB
+2023-10-21 20:11:05 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB
+2023-10-21 20:25:42 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/bg_top_k_sentences/train_losses.npy
+2023-10-21 20:30:27 [INFO]: Starting 'Calculating Rouge score'
+2023-10-21 20:30:27 [INFO]: Using default tokenizer.
+2023-10-21 20:30:30 [INFO]: End 'Calculating Rouge score' (in 0:02 mins)
+2023-10-21 20:30:30 [INFO]: Starting 'Calculating BERT score'
+2023-10-21 20:30:30 [INFO]: End 'Calculating BERT score' (in 0:00 mins)
+2023-10-21 20:31:20 [INFO]: End 'Calculating BERT score' (in 0:50 mins)
+2023-10-21 20:31:23 [INFO]: ** Saved model to random_0.15/generator_checkpoints/bart_xsum/bg_top_k_sentences/checkpoint-1
+2023-10-21 20:31:23 [INFO]: [End Epoch 1] Reach new highest val rouge-1 (30.38)
+2023-10-21 20:31:23 [INFO]: Saved train_losses to random_0.15/generator_records/bart_xsum/bg_top_k_sentences/train_losses.npy
+2023-10-21 20:31:23 [INFO]: Saved rouge1 to random_0.15/generator_records/bart_xsum/bg_top_k_sentences/rouge1.npy
+2023-10-21 20:31:23 [INFO]: Saved rouge2 to random_0.15/generator_records/bart_xsum/bg_top_k_sentences/rouge2.npy
+2023-10-21 20:31:23 [INFO]: Saved rougeL to random_0.15/generator_records/bart_xsum/bg_top_k_sentences/rougeL.npy
+2023-10-21 20:31:23 [INFO]: Saved BERTscore to random_0.15/generator_records/bart_xsum/bg_top_k_sentences/BERTscore.npy
+2023-10-21 20:31:25 [INFO]: D0: 34.24/40.00 GB | D1: 27.05/40.00 GB | D2: 27.05/40.00 GB | D3: 27.09/40.00 GB

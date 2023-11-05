@@ -1,0 +1,7 @@
+2023-09-27 13:46:39 [INFO]: args=Namespace(log=False, log_dir='generating_prototype', full=False, test_file='/home/akoirala/Thesis/Data-Preprocessing-Pipeline/test.csv', background_checkpoint='/home/akoirala/Thesis/training_query_model/checkpoint/PICO-0.15-3', result_path='/home/akoirala/Thesis/Testing/result', model='bart_cnn', bart_checkpoint='/home/akoirala/Thesis/Generating_summary/checkpoints/checkpoint-11', save_samp=False, bs=16, exp_name=None)
+2023-09-27 13:46:43 [INFO]: Starting 'Buliding val dataset'
+2023-09-27 13:46:43 [INFO]: Starting 'Buliding MyDataset'
+2023-09-27 13:46:44 [INFO]: End 'Buliding MyDataset' (in 0:00 mins)
+2023-09-27 13:46:44 [INFO]: Starting 'Buliding DataLoader'
+2023-09-27 13:46:44 [INFO]: End 'Buliding DataLoader' (in 0:00 mins)
+2023-09-27 13:46:44 [INFO]: End 'Buliding val dataset' (in 0:00 mins)

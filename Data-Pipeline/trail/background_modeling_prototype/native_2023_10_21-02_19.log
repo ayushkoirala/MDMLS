@@ -1,0 +1,38 @@
+2023-10-21 02:19:30 [INFO]: args=Namespace(bs=128, n_epoch=3, lr=3e-05, model_dir='background_checkpoint', full=False, log=True, log_dir='trail/background_modeling_prototype')
+2023-10-21 02:19:30 [INFO]: Starting 'Main program'
+2023-10-21 02:19:30 [INFO]: Starting 'Loading data'
+2023-10-21 02:19:30 [INFO]: Imported 97 rows of train datasset
+2023-10-21 02:19:30 [INFO]: Imported 97 rows of train datasset
+2023-10-21 02:19:30 [INFO]: Imported 54 rows of validation dataset
+2023-10-21 02:19:30 [INFO]: End 'Loading data' (in 0:00 mins)
+2023-10-21 02:19:30 [INFO]: Starting 'Training'
+2023-10-21 02:19:52 [INFO]: Starting 'Tokenizing (Train dataset)'
+2023-10-21 02:19:52 [INFO]: End 'Tokenizing (Train dataset)' (in 0:00 mins)
+2023-10-21 02:19:52 [INFO]: Starting 'Tokenizing (Val dataset)'
+2023-10-21 02:19:52 [INFO]: End 'Tokenizing (Val dataset)' (in 0:00 mins)
+2023-10-21 02:19:52 [INFO]: Starting 'Building dataset'
+2023-10-21 02:19:52 [INFO]: End 'Building dataset' (in 0:00 mins)
+2023-10-21 02:19:52 [INFO]: Starting 'Building dataloader'
+2023-10-21 02:19:52 [INFO]: End 'Building dataloader' (in 0:00 mins)
+2023-10-21 02:19:59 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 1.90/40.00 GB
+2023-10-21 02:19:59 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 02:19:59 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 02:19:59 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 02:20:15 [INFO]: [Epoch 1] Trainning loss: 0.0350
+2023-10-21 02:20:15 [INFO]: [Epoch 1] New lowest val loss (0.0675)
+2023-10-21 02:20:15 [INFO]: ** Saved model to random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 02:20:15 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 02:20:15 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
+2023-10-21 02:20:16 [INFO]: [Epoch 2] Trainning loss: 0.0287
+2023-10-21 02:20:16 [INFO]: [Epoch 2] New lowest val loss (0.0293)
+2023-10-21 02:20:17 [INFO]: ** Saved model to random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 02:20:17 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 02:20:17 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
+2023-10-21 02:20:17 [INFO]: [Epoch 3] Trainning loss: 0.0178
+2023-10-21 02:20:18 [INFO]: [Epoch 3] New lowest val loss (0.0209)
+2023-10-21 02:20:18 [INFO]: ** Saved model to random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 02:20:18 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 02:20:18 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
+2023-10-21 02:20:18 [INFO]: End 'Training' (in 0:47 mins)
+2023-10-21 02:20:18 [INFO]: End 'Main program' (in 0:47 mins)
+2023-10-21 02:20:18 [INFO]: args=Namespace(log=True, log_dir='trail/ranking_prototype', full=False, bs=32)

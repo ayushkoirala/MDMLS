@@ -1,0 +1,4 @@
+Start Generating job
+Loading miniconda module and activate envs
+===================================================================== Running python file ======================================================================
+slurmstepd: error: *** JOB 723503 ON lanta-g-005 CANCELLED AT 2023-09-27T21:25:14 ***

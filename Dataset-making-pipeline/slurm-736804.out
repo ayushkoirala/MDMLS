@@ -1,0 +1,500 @@
+Start Data Preprocessing job
+Loading miniconda module and activate envs
+===================================================================== Running python file ======================================================================
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:171: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_r'] = r1_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:172: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R1_p'] = r1_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:173: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_r'] = r2_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:174: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['R2_p'] = r2_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:175: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_r'] = rl_r
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:176: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  df['Rl_p'] = rl_p
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:128: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df['final_score'] = rouge_scores_df.apply(calculate_final_score, axis=1)
+/home/akoirala/Thesis/Data-making-pipeline/data-masking.py:130: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  rouge_scores_df.drop(['R1_r', 'R2_r', 'R1_p', 'R2_p', 'Rl_p', 'Rl_r'], axis=1, inplace=True)
+args=Namespace(log=True, log_dir='preprocess_prototype', full=False, input_dir='/home/akoirala/Thesis/Data-making-pipeline/dataset', result='/home/akoirala/Thesis/Data-making-pipeline/random_framework_final')
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Masking background using PICO Done
+spliting into sentences
+Getting Target R1,R2 and RL
+Final Score is saved
+Traceback (most recent call last):
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 266, in save
+    self._save()
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 271, in _save
+    self._save_body()
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 309, in _save_body
+    self._save_chunk(start_i, end_i)
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 320, in _save_chunk
+    libwriters.write_csv_rows(
+  File "writers.pyx", line 72, in pandas._libs.writers.write_csv_rows
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+OSError: [Errno 122] Disk quota exceeded
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/akoirala/Thesis/Data-making-pipeline/data-masking.py", line 247, in <module>
+    main()
+  File "/home/akoirala/Thesis/Data-making-pipeline/data-masking.py", line 244, in main
+    preprocess_and_save(input_filepath, output_directory, tokenizer, model, device, ratio)
+  File "/home/akoirala/Thesis/Data-making-pipeline/data-masking.py", line 135, in preprocess_and_save
+    rouge_scores_df.to_csv(output_filename, index=False)
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/formats/csvs.py", line 266, in save
+    self._save()
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/common.py", line 142, in __exit__
+    self.close()
+  File "/home/akoirala/.local/lib/python3.9/site-packages/pandas/io/common.py", line 134, in close
+    handle.close()
+OSError: [Errno 122] Disk quota exceeded
+===================================================================== Finished python file =====================================================================

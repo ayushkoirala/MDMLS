@@ -1,0 +1,4 @@
+2023-09-27 21:26:54 [INFO]: args=Namespace(log=False, log_dir='generating', full=True, test_file='/home/akoirala/Thesis/Data-Preprocessing-Pipeline/test.csv', background_checkpoint='/home/akoirala/Thesis/training_query_model/checkpoint/model-with-test', result_path='/home/akoirala/Thesis/Testing/result/model_with_test', model='bart_cnn', bart_checkpoint='/home/akoirala/Thesis/Generating_summary/checkpoints/checkpoint-12', save_samp=True, bs=16, exp_name=None, num_beams=4, split='sample')
+2023-09-27 21:30:06 [INFO]: Getting Target R1,R2 and RL
+2023-09-27 21:30:06 [INFO]: Final Score is saved
+2023-09-27 21:30:07 [INFO]: Process_data function Done

@@ -1,0 +1,37 @@
+2023-10-06 12:05:54 [INFO]: args=Namespace(log=True, log_dir='preprocess_prototype', full=False, input_dir='/home/akoirala/Thesis/Data-making-pipeline/dataset', result='/home/akoirala/Thesis/Data-making-pipeline/random_framework_final')
+2023-10-06 12:06:28 [INFO]: Masking background using PICO Done
+2023-10-06 12:06:32 [INFO]: spliting into sentences
+2023-10-06 12:08:18 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:08:20 [INFO]: Final Score is saved
+2023-10-06 12:08:24 [INFO]: Masking background using PICO Done
+2023-10-06 12:08:25 [INFO]: spliting into sentences
+2023-10-06 12:08:46 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:08:46 [INFO]: Final Score is saved
+2023-10-06 12:08:51 [INFO]: Masking background using PICO Done
+2023-10-06 12:09:20 [INFO]: spliting into sentences
+2023-10-06 12:22:00 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:22:12 [INFO]: Final Score is saved
+2023-10-06 12:22:37 [INFO]: Masking background using PICO Done
+2023-10-06 12:22:41 [INFO]: spliting into sentences
+2023-10-06 12:24:28 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:24:29 [INFO]: Final Score is saved
+2023-10-06 12:24:33 [INFO]: Masking background using PICO Done
+2023-10-06 12:24:33 [INFO]: spliting into sentences
+2023-10-06 12:24:55 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:24:55 [INFO]: Final Score is saved
+2023-10-06 12:24:59 [INFO]: Masking background using PICO Done
+2023-10-06 12:25:29 [INFO]: spliting into sentences
+2023-10-06 12:38:09 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:38:20 [INFO]: Final Score is saved
+2023-10-06 12:38:45 [INFO]: Masking background using PICO Done
+2023-10-06 12:38:50 [INFO]: spliting into sentences
+2023-10-06 12:40:36 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:40:38 [INFO]: Final Score is saved
+2023-10-06 12:40:41 [INFO]: Masking background using PICO Done
+2023-10-06 12:40:42 [INFO]: spliting into sentences
+2023-10-06 12:41:04 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:41:04 [INFO]: Final Score is saved
+2023-10-06 12:41:08 [INFO]: Masking background using PICO Done
+2023-10-06 12:41:38 [INFO]: spliting into sentences
+2023-10-06 12:54:16 [INFO]: Getting Target R1,R2 and RL
+2023-10-06 12:54:28 [INFO]: Final Score is saved

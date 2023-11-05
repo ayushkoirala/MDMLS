@@ -1,0 +1,9 @@
+name: envs
+dependencies:
+  - python=3.9
+  - numpy=1.23.5
+  - pandas
+  - pytorch
+  - tqdm
+  - scikit-learn
+  

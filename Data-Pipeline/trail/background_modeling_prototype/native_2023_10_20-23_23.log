@@ -1,0 +1,25 @@
+2023-10-20 23:23:50 [INFO]: args=Namespace(bs=128, n_epoch=3, lr=3e-05, model_dir='background_checkpoint', full=False, log=True, log_dir='trail/background_modeling_prototype')
+2023-10-20 23:23:50 [INFO]: Starting 'Main program'
+2023-10-20 23:23:50 [INFO]: Starting 'Loading data'
+2023-10-20 23:24:03 [INFO]: Imported 926163 rows of train datasset
+2023-10-20 23:24:05 [INFO]: Imported 926163 rows of train datasset
+2023-10-20 23:24:05 [INFO]: Imported 130827 rows of validation dataset
+2023-10-20 23:24:05 [INFO]: End 'Loading data' (in 0:15 mins)
+2023-10-20 23:24:05 [INFO]: Starting 'Training'
+2023-10-20 23:24:27 [INFO]: Starting 'Tokenizing (Train dataset)'
+2023-10-20 23:49:00 [INFO]: End 'Tokenizing (Train dataset)' (in 24:33 mins)
+2023-10-20 23:49:00 [INFO]: Starting 'Tokenizing (Val dataset)'
+2023-10-20 23:52:18 [INFO]: End 'Tokenizing (Val dataset)' (in 3:17 mins)
+2023-10-20 23:52:18 [INFO]: Starting 'Building dataset'
+2023-10-20 23:52:20 [INFO]: End 'Building dataset' (in 0:01 mins)
+2023-10-20 23:52:20 [INFO]: Starting 'Building dataloader'
+2023-10-20 23:52:20 [INFO]: End 'Building dataloader' (in 0:00 mins)
+2023-10-20 23:52:27 [INFO]: Device 0: NVIDIA A100-SXM4-40GB | Used: 1.90/40.00 GB
+2023-10-20 23:52:27 [INFO]: Device 1: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-20 23:52:27 [INFO]: Device 2: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-20 23:52:27 [INFO]: Device 3: NVIDIA A100-SXM4-40GB | Used: 0.61/40.00 GB
+2023-10-21 01:17:21 [INFO]: [Epoch 1] Trainning loss: 0.0007
+2023-10-21 01:21:21 [INFO]: [Epoch 1] New lowest val loss (0.0006)
+2023-10-21 01:21:23 [INFO]: ** Saved model to random_0.15/background_checkpoints/checkpoint-1
+2023-10-21 01:21:23 [INFO]: Saved train_losses to random_0.15/background_records/train_losses.npy
+2023-10-21 01:21:23 [INFO]: Saved val_losses to random_0.15/background_records/val_losses.npy
